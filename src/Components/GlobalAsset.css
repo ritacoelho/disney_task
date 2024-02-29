@@ -1,0 +1,43 @@
+.asset-container {
+    flex: 1 1 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    min-width: 187px;
+    margin:30px;
+}
+
+.asset-icon {
+    height: 77px;
+    width: 77px;
+    margin: 0;
+}
+
+.asset-name {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 15px;
+    text-transform: uppercase;
+    margin: 12;
+}
+
+.asset-reach {
+    font-family: GeographWebBold;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #FFCC02;
+    margin: 0;
+}
+
+.asset-desc {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 15px;
+    text-transform: uppercase;
+    margin: 0;
+}

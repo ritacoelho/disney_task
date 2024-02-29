@@ -1,13 +1,79 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  width:100%;
+  font-family: GeographWebRegular;
+  color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1A1A1A;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+@font-face {
+  font-family: 'GeographWebBlack';
+  src: local('GeographWebBlack'),
+      url('./fonts/GeographWeb-Black.woff');
 }
+
+@font-face {
+  font-family: 'GeographWebBlackItalic';
+  src: local('GeographWebBlackItalic'),
+      url('./fonts/GeographWeb-BlackItalic.woff');
+}
+
+@font-face {
+  font-family: 'GeographWebBold';
+  src: local('GeographWebBold'),
+      url('./fonts/GeographWeb-Bold.woff');
+}
+
+@font-face {
+  font-family: 'GeographWebBoldItalic';
+  src: local('GeographWebBoldItalic'),
+      url('./fonts/GeographWeb-BoldItalic.woff');
+}
+
+@font-face {
+  font-family: 'GeographWebLight';
+  src: local('GeographWebLight'),
+      url('./fonts/GeographWeb-Light.woff');
+}
+
+@font-face {
+  font-family: 'GeographWebLightItalic';
+  src: local('GeographWebLightItalic'),
+      url('./fonts/GeographWeb-LightItalic.woff');
+}
+
+@font-face {
+  font-family: 'GeographWebMedium';
+  src: local('GeographWebMedium'),
+      url('./fonts/GeographWeb-Medium.woff');
+}
+
+@font-face {
+  font-family: 'GeographWebRegular';
+  src: local('GeographWebRegular'),
+      url('./fonts/GeographWeb-Regular.woff');
+}
+
+@font-face {
+  font-family: 'GeographWebRegularItalic';
+  src: local('GeographWebRegularItalic'),
+      url('./fonts/GeographWeb-RegularItalic.woff');
+}
+
+@font-face {
+  font-family: 'GeographWebThin';
+  src: local('GeographWebThin'),
+      url('./fonts/GeographWeb-Thin.woff');
+}
+
+@font-face {
+  font-family: 'GeographWebThinItalic';
+  src: local('GeographWebThinItalic'),
+      url('./fonts/GeographWeb-ThinItalic.woff');
+}
+
+
+

@@ -2,37 +2,103 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@media screen and (max-width: 480px){
+  .Body {
+    padding-left: 16px; 
+    padding-right: 16px; 
+  }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .Banner {
+    background:linear-gradient(180deg, rgba(255, 0, 149, 0), rgba(0, 0, 0, 0.517)), url('./Assets/image2.jpg') !important;
+    height: 409px !important;
+    padding: 12px !important;
+    padding-bottom: 40px !important;
+    background-size: cover !important;
+  }
+
+  h1 {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .banner-text {
+    font-family: GeographWebRegular !important;
+    font-size: 15px !important;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .Body {
+    padding-left: 32px; 
+    padding-right: 32px; 
+  }
+
+  .Banner {
+    background:linear-gradient(180deg, rgba(255, 0, 149, 0), rgba(0, 0, 0, 0.517)), url('./Assets/image1.jpg');
+  }
+}
+
+@media screen and (min-width: 769px){
+  .Body {
+    padding-left: 192px; 
+    padding-right: 192px; 
+  }
+
+  .Banner {
+    background:linear-gradient(180deg, rgba(255, 0, 149, 0), rgba(0, 0, 0, 0.517)), url('./Assets/image1.jpg');
+  }
+}
+
+
+h1, h2 {
+  font-family: GeographWebBlack;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.banner-text {
+  font-family: GeographWebMedium;
+  letter-spacing: 1px;
+  font-size: 15px;
+  text-align: left;
+  padding-top: 30px;
+}
+
+
+.Banner {
+  margin:0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 629px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: end;
+  padding: 60px;
+  box-sizing: border-box;
+}
+
+.Body {
+  height: min-content;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* font-size: calc(10px + 2vmin); */
   color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  box-sizing: border-box;
+  gap:40px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.assets-container {
+  width:100%;
+  height:fit-content;
+  display: flex;
+  justify-content: stretch;
+  flex-wrap: wrap;
+  /* gap: 40px; */
 }
